@@ -1,0 +1,869 @@
+{
+  "id": "case01",
+  "title": "The Blackout at Cedar Court",
+  "facts": [
+    {
+      "id": "F01",
+      "text": "Pintu has been diverting company payments through a fraudulent vendor account by approving fake supplier invoices.",
+      "time": "Months before",
+      "place": "Company office",
+      "people": [
+        "pintu"
+      ]
+    },
+    {
+      "id": "F02",
+      "text": "Ramesh approved one questionable supplier payment without checking it properly.",
+      "time": "Months before",
+      "place": "Company office",
+      "people": [
+        "ramesh"
+      ]
+    },
+    {
+      "id": "F03",
+      "text": "While reviewing invoices, Ramesh finds irregular supplier payments and traces them to approvals signed by Pintu.",
+      "time": "Weeks before",
+      "place": "Company office",
+      "people": [
+        "ramesh",
+        "pintu"
+      ]
+    },
+    {
+      "id": "F04",
+      "text": "The maintenance contractor emails Vishwas that the CCTV backup battery is failing; he never arranges a replacement.",
+      "time": "Weeks before",
+      "place": "Cedar Court",
+      "people": [
+        "vishwas"
+      ]
+    },
+    {
+      "id": "F05",
+      "text": "The latch on the building's side entrance is broken, so the door does not lock.",
+      "time": "Weeks before",
+      "place": "Cedar Court side entrance",
+      "people": []
+    },
+    {
+      "id": "F06",
+      "text": "Pintu comes to Flat 3B for a work session and Ramesh gives him the Wi-Fi password; Pintu's phone saves the network.",
+      "time": "Three weeks before",
+      "place": "Flat 3B",
+      "people": [
+        "pintu",
+        "ramesh"
+      ]
+    },
+    {
+      "id": "F07",
+      "text": "Ramesh's router is plugged into a small battery backup unit, so it keeps running during power cuts.",
+      "time": "Before Saturday",
+      "place": "Flat 3B",
+      "people": [
+        "ramesh"
+      ]
+    },
+    {
+      "id": "F08",
+      "text": "Ramesh sends the residents' association a written request to see the building's maintenance fund accounts.",
+      "time": "One week before",
+      "place": "Cedar Court",
+      "people": [
+        "ramesh",
+        "vishwas"
+      ]
+    },
+    {
+      "id": "F09",
+      "text": "Pintu signs out a roll of 6 mm braided nylon cord with two blue tracer strands from the company dispatch store.",
+      "time": "17:40",
+      "place": "Company dispatch store",
+      "people": [
+        "pintu"
+      ]
+    },
+    {
+      "id": "F10",
+      "text": "At dinner Ramesh tells Mina he is worried about something at work that he plans to deal with on Monday.",
+      "time": "20:30",
+      "place": "Restaurant",
+      "people": [
+        "ramesh",
+        "mina"
+      ]
+    },
+    {
+      "id": "F11",
+      "text": "Ramesh and Mina argue about his possible move away from Goa for a job; Mina starts thinking about ending the relationship.",
+      "time": "20:50",
+      "place": "Restaurant",
+      "people": [
+        "ramesh",
+        "mina"
+      ]
+    },
+    {
+      "id": "F12",
+      "text": "Ramesh and Mina return from their date to Cedar Court and part ways in the lobby; Ramesh stays in the car park to finish a work call.",
+      "time": "21:30",
+      "place": "Cedar Court lobby",
+      "people": [
+        "ramesh",
+        "mina"
+      ]
+    },
+    {
+      "id": "F13",
+      "text": "Mina enters her own flat, 2A; the corridor camera records her.",
+      "time": "21:34",
+      "place": "Corridor, floor 2",
+      "people": [
+        "mina"
+      ]
+    },
+    {
+      "id": "F14",
+      "text": "Mina sends Ramesh an angry message about dishonesty that ends with \"I don't want to see you again.\"",
+      "time": "21:41",
+      "place": "Flat 2A",
+      "people": [
+        "mina",
+        "ramesh"
+      ]
+    },
+    {
+      "id": "F15",
+      "text": "Ramesh enters his flat, 3B.",
+      "time": "21:45",
+      "place": "Flat 3B",
+      "people": [
+        "ramesh"
+      ]
+    },
+    {
+      "id": "F16",
+      "text": "Pintu's phone disconnects from his home Wi-Fi as he leaves home.",
+      "time": "21:51",
+      "place": "Pintu's home",
+      "people": [
+        "pintu"
+      ]
+    },
+    {
+      "id": "F17",
+      "text": "Ramesh opens his laptop and goes through the supplier payment records.",
+      "time": "21:52",
+      "place": "Flat 3B",
+      "people": [
+        "ramesh"
+      ]
+    },
+    {
+      "id": "F18",
+      "text": "Pintu texts Ramesh: \"Can we sort the accounts issue before Monday? Call me.\" Ramesh does not reply.",
+      "time": "21:56",
+      "place": "Pintu's phone",
+      "people": [
+        "pintu",
+        "ramesh"
+      ]
+    },
+    {
+      "id": "F19",
+      "text": "Ramesh's unfinished email to company management, naming Pintu, autosaves to the company cloud drive.",
+      "time": "21:58",
+      "place": "Flat 3B",
+      "people": [
+        "ramesh",
+        "pintu"
+      ]
+    },
+    {
+      "id": "F20",
+      "text": "Pintu parks in the lane behind Cedar Court, a seven-minute drive from his home, and waits with a length of cord cut from the dispatch roll.",
+      "time": "21:58",
+      "place": "Lane behind Cedar Court",
+      "people": [
+        "pintu"
+      ]
+    },
+    {
+      "id": "F21",
+      "text": "Ramesh replies to Mina with a single text: \"Good night.\"",
+      "time": "22:00",
+      "place": "Flat 3B",
+      "people": [
+        "ramesh",
+        "mina"
+      ]
+    },
+    {
+      "id": "F22",
+      "text": "Vishwas joins a committee video call from his own flat; it runs until 22:50.",
+      "time": "22:00",
+      "place": "Vishwas's flat",
+      "people": [
+        "vishwas"
+      ]
+    },
+    {
+      "id": "F23",
+      "text": "A food delivery rider, Deepak, enters the building.",
+      "time": "22:02",
+      "place": "Cedar Court lobby",
+      "people": [
+        "deepak"
+      ]
+    },
+    {
+      "id": "F24",
+      "text": "Mina starts a video call with her sister Joanna that lasts until 22:41; Joanna sees Mina in her living room the whole time.",
+      "time": "22:03",
+      "place": "Flat 2A",
+      "people": [
+        "mina",
+        "joanna"
+      ]
+    },
+    {
+      "id": "F25",
+      "text": "Deepak delivers an order to Flat 1C.",
+      "time": "22:05",
+      "place": "Flat 1C",
+      "people": [
+        "deepak"
+      ]
+    },
+    {
+      "id": "F26",
+      "text": "Santosh leaves his desk and walks out of the front gate to a tea stall about 300 m away.",
+      "time": "22:05",
+      "place": "Cedar Court lobby",
+      "people": [
+        "santosh"
+      ]
+    },
+    {
+      "id": "F27",
+      "text": "Deepak leaves through the basement service exit, which the main entrance camera does not cover.",
+      "time": "22:08",
+      "place": "Basement service exit",
+      "people": [
+        "deepak"
+      ]
+    },
+    {
+      "id": "F28",
+      "text": "An electricity outage hits the building.",
+      "time": "22:10",
+      "place": "Cedar Court",
+      "people": []
+    },
+    {
+      "id": "F29",
+      "text": "The security cameras stop recording because their backup battery is dead.",
+      "time": "22:10",
+      "place": "Cedar Court",
+      "people": []
+    },
+    {
+      "id": "F30",
+      "text": "Pintu walks in through the side entrance, whose latch is broken, and the lobby is unattended.",
+      "time": "22:12",
+      "place": "Side entrance",
+      "people": [
+        "pintu"
+      ]
+    },
+    {
+      "id": "F31",
+      "text": "Pintu climbs the rear service staircase to the third floor and knocks on Flat 3B.",
+      "time": "22:14",
+      "place": "Rear service staircase",
+      "people": [
+        "pintu",
+        "ramesh"
+      ]
+    },
+    {
+      "id": "F32",
+      "text": "Pintu's phone joins the Wi-Fi in Flat 3B; the router stays online on its battery backup.",
+      "time": "22:14",
+      "place": "Flat 3B",
+      "people": [
+        "pintu"
+      ]
+    },
+    {
+      "id": "F33",
+      "text": "Santosh pays for cigarettes by UPI at the tea stall.",
+      "time": "22:14",
+      "place": "Tea stall",
+      "people": [
+        "santosh"
+      ]
+    },
+    {
+      "id": "F34",
+      "text": "Ramesh recognises Pintu and lets him into the flat.",
+      "time": "22:15",
+      "place": "Flat 3B",
+      "people": [
+        "ramesh",
+        "pintu"
+      ]
+    },
+    {
+      "id": "F35",
+      "text": "Pintu questions Ramesh about the invoices; Ramesh says he has enough to report the fraud to management on Monday.",
+      "time": "22:16",
+      "place": "Flat 3B",
+      "people": [
+        "ramesh",
+        "pintu"
+      ]
+    },
+    {
+      "id": "F36",
+      "text": "The argument turns into a physical struggle.",
+      "time": "22:18",
+      "place": "Flat 3B",
+      "people": [
+        "ramesh",
+        "pintu"
+      ]
+    },
+    {
+      "id": "F37",
+      "text": "Pintu strangles Ramesh with the cord he brought; Ramesh dies.",
+      "time": "22:20",
+      "place": "Flat 3B",
+      "people": [
+        "ramesh",
+        "pintu"
+      ]
+    },
+    {
+      "id": "F38",
+      "text": "Pintu pulls open the desk drawers looking for printed records; the laptop is password-locked, so he leaves with nothing.",
+      "time": "22:22",
+      "place": "Flat 3B",
+      "people": [
+        "pintu"
+      ]
+    },
+    {
+      "id": "F39",
+      "text": "Electricity returns to the building.",
+      "time": "22:24",
+      "place": "Cedar Court",
+      "people": []
+    },
+    {
+      "id": "F40",
+      "text": "Pintu leaves Flat 3B and exits the building by the rear service staircase.",
+      "time": "22:26",
+      "place": "Rear service staircase",
+      "people": [
+        "pintu"
+      ]
+    },
+    {
+      "id": "F41",
+      "text": "Pintu's phone drops off the Flat 3B Wi-Fi.",
+      "time": "22:27",
+      "place": "Flat 3B",
+      "people": [
+        "pintu"
+      ]
+    },
+    {
+      "id": "F42",
+      "text": "Pintu calls Ramesh's phone and hangs up after three seconds, leaving a missed call.",
+      "time": "22:30",
+      "place": "Pintu's phone",
+      "people": [
+        "pintu",
+        "ramesh"
+      ]
+    },
+    {
+      "id": "F43",
+      "text": "Pintu's phone connects to his home Wi-Fi.",
+      "time": "22:34",
+      "place": "Pintu's home",
+      "people": [
+        "pintu"
+      ]
+    },
+    {
+      "id": "F44",
+      "text": "Santosh walks back from the tea stall and returns to his desk.",
+      "time": "22:35",
+      "place": "Cedar Court lobby",
+      "people": [
+        "santosh"
+      ]
+    },
+    {
+      "id": "F45",
+      "text": "The maid, Sunita, lets herself into Flat 3B with the spare key, finds Ramesh dead and phones the police at 07:04.",
+      "time": "Sun 07:00",
+      "place": "Flat 3B",
+      "people": [
+        "sunita",
+        "ramesh"
+      ]
+    },
+    {
+      "id": "F46",
+      "text": "Police find the dispatch roll in the boot of Pintu's car; the cut end matches the cord used on Ramesh.",
+      "time": "Sun 14:00",
+      "place": "Pintu's car",
+      "people": [
+        "pintu"
+      ]
+    }
+  ],
+  "timeline": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35",
+    "F36",
+    "F37",
+    "F38",
+    "F39",
+    "F40",
+    "F41",
+    "F42",
+    "F43",
+    "F44",
+    "F45",
+    "F46"
+  ],
+  "characters": [
+    {
+      "id": "ramesh",
+      "name": "Ramesh Naik",
+      "role": "victim",
+      "persona": "29-year-old accounts analyst. Quiet, private and meticulous with numbers. Was shaken by what he found at work and by one old mistake of his own.",
+      "traits": [
+        "private",
+        "meticulous",
+        "anxious"
+      ],
+      "knowledge": []
+    },
+    {
+      "id": "mina",
+      "name": "Mina Fernandes",
+      "role": "suspect",
+      "persona": "26-year-old private-sector employee, Ramesh's girlfriend, living in Flat 2A. Direct and emotional, quick to anger and quick to regret. Wanted Ramesh to be honest about their future.",
+      "traits": [
+        "blunt",
+        "emotional",
+        "ashamed of the argument"
+      ],
+      "knowledge": [
+        {
+          "fact_id": "F10",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F11",
+          "status": "hides"
+        },
+        {
+          "fact_id": "F12",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F13",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F14",
+          "status": "hides"
+        },
+        {
+          "fact_id": "F21",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F24",
+          "status": "knows"
+        }
+      ]
+    },
+    {
+      "id": "pintu",
+      "name": "Pintu Kamat",
+      "role": "suspect",
+      "persona": "30-year-old accounts and dispatch coordinator at Ramesh's company. Friendly, helpful and calm under pressure. Keeps a neat story and over-explains. Volunteers that he tried calling Ramesh that night.",
+      "traits": [
+        "cooperative",
+        "calm",
+        "over-explains"
+      ],
+      "knowledge": [
+        {
+          "fact_id": "F01",
+          "status": "hides"
+        },
+        {
+          "fact_id": "F06",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F09",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F18",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F16",
+          "status": "lies",
+          "cover_story": "I was at home all night. I never went near Cedar Court. My phone was on the charger."
+        },
+        {
+          "fact_id": "F20",
+          "status": "lies",
+          "cover_story": "I was at home all night. I never went near Cedar Court."
+        },
+        {
+          "fact_id": "F30",
+          "status": "lies",
+          "cover_story": "I was at home all night. I never went near Cedar Court."
+        },
+        {
+          "fact_id": "F31",
+          "status": "lies",
+          "cover_story": "I was at home all night. I never went near Cedar Court."
+        },
+        {
+          "fact_id": "F32",
+          "status": "lies",
+          "cover_story": "That log must be wrong. I was not there, and phones show odd connections all the time."
+        },
+        {
+          "fact_id": "F34",
+          "status": "lies",
+          "cover_story": "I was at home all night. I never went near Cedar Court."
+        },
+        {
+          "fact_id": "F35",
+          "status": "lies",
+          "cover_story": "I was at home all night. I never went near Cedar Court."
+        },
+        {
+          "fact_id": "F36",
+          "status": "lies",
+          "cover_story": "I was at home all night. I never went near Cedar Court."
+        },
+        {
+          "fact_id": "F37",
+          "status": "lies",
+          "cover_story": "I was at home all night. I never went near Cedar Court. Anyone in dispatch can cut cord from that roll."
+        },
+        {
+          "fact_id": "F38",
+          "status": "lies",
+          "cover_story": "I was at home all night. I never went near Cedar Court."
+        },
+        {
+          "fact_id": "F40",
+          "status": "lies",
+          "cover_story": "I was at home all night. I never went near Cedar Court."
+        },
+        {
+          "fact_id": "F42",
+          "status": "lies",
+          "cover_story": "I called around half past ten because Ramesh had not replied to my message. He did not pick up, so I assumed he was asleep."
+        },
+        {
+          "fact_id": "F43",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F46",
+          "status": "lies",
+          "cover_story": "I signed out the roll for a weekend shipment and left it in my car. Anyone at dispatch could have cut a length from it earlier."
+        }
+      ]
+    },
+    {
+      "id": "vishwas",
+      "name": "Vishwas Prabhu",
+      "role": "suspect",
+      "persona": "48-year-old secretary of the residents' association. Officious and defensive, very conscious of his standing. Hates complaints and anyone looking at the association's money.",
+      "traits": [
+        "officious",
+        "defensive",
+        "status-conscious"
+      ],
+      "knowledge": [
+        {
+          "fact_id": "F04",
+          "status": "lies",
+          "cover_story": "I never received any warning about the battery. As far as I know it was inspected last year."
+        },
+        {
+          "fact_id": "F05",
+          "status": "hides"
+        },
+        {
+          "fact_id": "F08",
+          "status": "hides"
+        },
+        {
+          "fact_id": "F22",
+          "status": "knows"
+        }
+      ]
+    },
+    {
+      "id": "santosh",
+      "name": "Santosh Gawas",
+      "role": "suspect",
+      "persona": "55-year-old night guard. Tired, deferential and afraid of losing the job. Evasive about his shift.",
+      "traits": [
+        "deferential",
+        "nervous",
+        "evasive"
+      ],
+      "knowledge": [
+        {
+          "fact_id": "F12",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F15",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F05",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F23",
+          "status": "knows"
+        },
+        {
+          "fact_id": "F26",
+          "status": "lies",
+          "cover_story": "I fell asleep at my desk and slept through the whole outage."
+        },
+        {
+          "fact_id": "F33",
+          "status": "hides"
+        },
+        {
+          "fact_id": "F44",
+          "status": "lies",
+          "cover_story": "I woke up when the lights came back on."
+        }
+      ]
+    },
+    {
+      "id": "deepak",
+      "name": "Deepak Yadav",
+      "role": "witness",
+      "persona": "24-year-old food delivery rider. In a hurry, polite, worried about ratings.",
+      "traits": [
+        "hurried",
+        "polite"
+      ],
+      "knowledge": []
+    },
+    {
+      "id": "sunita",
+      "name": "Sunita Gaonkar",
+      "role": "witness",
+      "persona": "Ramesh's maid, who has kept a spare key for years. Shocked and tearful after finding the body.",
+      "traits": [
+        "shaken",
+        "loyal"
+      ],
+      "knowledge": []
+    },
+    {
+      "id": "joanna",
+      "name": "Joanna Fernandes",
+      "role": "witness",
+      "persona": "Mina's older sister, living in another city. Protective of Mina.",
+      "traits": [
+        "protective",
+        "straightforward"
+      ],
+      "knowledge": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E01",
+      "name": "Postmortem report",
+      "description": "Cause of death is ligature strangulation with a narrow braided cord. Both forearms show defensive bruising. Estimated time of death is between 21:45 and 23:45.",
+      "proves": [
+        "F37",
+        "F36"
+      ],
+      "scene": "police_records"
+    },
+    {
+      "id": "E02",
+      "name": "Flat 3B scene examination",
+      "description": "The door and lock are undamaged and there is no sign of forced entry. Ramesh's laptop is closed and password-locked on the desk. The desk drawers have been pulled open and papers disturbed. A length of 6 mm braided nylon cord with two blue tracer strands lies by the body.",
+      "proves": [
+        "F34",
+        "F38",
+        "F45"
+      ],
+      "scene": "flat_3b"
+    },
+    {
+      "id": "E03",
+      "name": "Building power log and association file",
+      "description": "Power failed at 22:10 and returned at 22:24. The camera system stopped recording at 22:10 and its backup battery was found dead. An email from the maintenance contractor to the association secretary, sent weeks earlier, warns that the backup battery is failing. The side entrance latch is broken and does not lock. The association file holds a written request from Ramesh Naik, dated a week before, asking to see the maintenance fund accounts. The guard's statement says he fell asleep at his desk during the outage.",
+      "proves": [
+        "F28",
+        "F29",
+        "F39",
+        "F04",
+        "F05",
+        "F08"
+      ],
+      "scene": "lobby"
+    },
+    {
+      "id": "E04",
+      "name": "Food delivery records",
+      "description": "The rider's app shows him entering the building at 22:02, delivering to Flat 1C at 22:05 and leaving through the basement service exit at 22:08. The main entrance camera shows him entering but not leaving.",
+      "proves": [
+        "F23",
+        "F25",
+        "F27"
+      ],
+      "scene": "lobby"
+    },
+    {
+      "id": "E05",
+      "name": "Mina's messages and call log",
+      "description": "At 21:41 Mina sent Ramesh an angry message about dishonesty ending with \"I don't want to see you again.\" Ramesh replied \"Good night.\" at 22:00. The corridor camera shows Mina entering Flat 2A at 21:34. Her call log shows a video call with her sister Joanna from 22:03 to 22:41; Joanna says Mina was in her living room the whole time, lit by her phone torch.",
+      "proves": [
+        "F11",
+        "F14",
+        "F21",
+        "F13",
+        "F24"
+      ],
+      "scene": "police_records"
+    },
+    {
+      "id": "E06",
+      "name": "Flat 3B router log",
+      "description": "The router in Flat 3B is on a small battery backup and stayed online through the outage. Its device list includes Pintu Kamat's phone, registered three weeks earlier. The connection log shows that phone joined at 22:14 and left at 22:27.",
+      "proves": [
+        "F07",
+        "F06",
+        "F32",
+        "F41"
+      ],
+      "scene": "flat_3b"
+    },
+    {
+      "id": "E07",
+      "name": "Ligature and dispatch roll examination",
+      "description": "The cord recovered from Flat 3B is 6 mm braided nylon with two blue tracer strands, matching the roll used by the company's dispatch department. On Sunday afternoon police found a roll of that cord in the boot of Pintu Kamat's car; its cut end physically matches the recovered cord. The dispatch stock register shows Pintu signed the roll out at 17:40 on Saturday.",
+      "proves": [
+        "F09",
+        "F37",
+        "F46"
+      ],
+      "scene": "police_records"
+    },
+    {
+      "id": "E08",
+      "name": "Ramesh's laptop and company cloud files",
+      "description": "The laptop is password-locked. With the company IT department's help, police open Ramesh's cloud drive: copies of supplier invoices, a spreadsheet linking repeated payments to a vendor account and to approvals signed by Pintu Kamat, and an unfinished email to senior management, autosaved at 21:58, describing the irregularities, naming Pintu and admitting that Ramesh once approved a payment without checking it. Access logs show the files were open from 21:52.",
+      "proves": [
+        "F01",
+        "F02",
+        "F03",
+        "F17",
+        "F19"
+      ],
+      "scene": "flat_3b"
+    },
+    {
+      "id": "E09",
+      "name": "Pintu's phone and home router records",
+      "description": "Pintu's home router shows his phone disconnecting at 21:51 and reconnecting at 22:34. His phone log shows a text to Ramesh at 21:56 reading \"Can we sort the accounts issue before Monday? Call me.\" and a three-second outgoing call to Ramesh at 22:30 that went unanswered. In his statement Pintu says he was at home all night and called because Ramesh had not replied.",
+      "proves": [
+        "F16",
+        "F18",
+        "F42",
+        "F43"
+      ],
+      "scene": "police_records"
+    },
+    {
+      "id": "E10",
+      "name": "Alibi checks for Vishwas and the guard",
+      "description": "The committee's video call log shows Vishwas connected from his flat from 22:00 to 22:50 with five other members. A UPI payment shows Santosh Gawas paying Rs 120 at a tea stall 300 m from the building at 22:14; the stall owner says Santosh stayed about half an hour and then walked back toward Cedar Court.",
+      "proves": [
+        "F22",
+        "F26",
+        "F33",
+        "F44"
+      ],
+      "scene": "lobby"
+    }
+  ],
+  "solution": {
+    "culprit_id": "pintu",
+    "motive": "Ramesh had found Pintu's supplier payment fraud and planned to report it to management on Monday. Pintu killed him to stop the report and avoid losing his job and facing criminal charges.",
+    "method": "Pintu cut a length of braided nylon cord from a dispatch roll, waited near the building, entered through the broken side entrance during the blackout, was let in by Ramesh and strangled him. The phone's connection to the router on battery backup and the later missed call give him away.",
+    "evidence_chain": [
+      "E06",
+      "E07",
+      "E08",
+      "E09"
+    ]
+  }
+}

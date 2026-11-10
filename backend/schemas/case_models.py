@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import Literal
 from enum import Enum
 
 class Knowledge(str,Enum):
@@ -24,6 +25,7 @@ class Character(BaseModel):
     persona: str
     traits: list[str] = [] #eg. proud,anxius 
     knowledge: list[FactKnowledge] = []
+    role: Literal["suspect","victim","witness"] = "suspect"
 
 class EvidenceItem(BaseModel):
     id:str

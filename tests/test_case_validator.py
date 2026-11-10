@@ -18,7 +18,8 @@ def make_case() -> CaseBible:
                 id="mara", name="Mara", persona="Proud ferry owner",
                 knowledge=[FactKnowledge(fact_id="F01", status="lies", cover_story="I was home all night.")],
             ),
-            Character(id="theo", name="Theo", persona="Nervous cook"),
+            Character(id="theo", name="Theo", persona="Nervous cook",
+                      knowledge=[FactKnowledge(fact_id="F02", status="knows")]),
         ],
         evidence=[
             EvidenceItem(id="E01", name="Wet boots", description="Muddy boots by the door.",
@@ -94,3 +95,21 @@ def test_chain_never_reaches_culprit():
     case = make_case()
     case.evidence[0].proves = ["F02"]  # fact about Theo, not Mara
     assert has_error(validate_case(case), "involving the culprit")
+
+def test_fact_missing_from_timeline():
+    case = make_case()
+    case.timeline.remove("F02")
+    assert has_error(validate_case(case), "Fact not mentioned in the timeline F02")
+
+
+def test_duplicate_fact_in_timeline():
+    case = make_case()
+    case.timeline.append("F01")
+    assert has_error(validate_case(case), "duplicate Fact in timeline: F01")
+
+
+def test_unreachable_fact():
+    case = make_case()
+    case.facts.append(Fact(id="F03", text="Nobody can reveal this."))
+    case.timeline.append("F03")
+    assert has_error(validate_case(case), "F03: no evidence proves it")

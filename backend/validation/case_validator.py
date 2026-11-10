@@ -20,6 +20,20 @@ def validate_case(case: CaseBible) -> list[str]:
         if fid not in facts:
             errors.append(f"timeline references unknown fact {fid}")
 
+    #all facts are i the timeline
+    for fact in case.facts:
+        if fact.id not in case.timeline:
+            errors.append(f"Fact not mentioned in the timeline {fact.id}")
+    for dup in sorted({i for i in case.timeline if case.timeline.count(i)>1}):
+            errors.append(f"duplicate Fact in timeline: {dup}")
+
+    #facts should be proven by evidence or characters
+    proven_by_evidence = {fid for ev in case.evidence for fid in ev.proves}
+    known_by_someone = {k.fact_id for ch in case.characters for k in ch.knowledge}
+    for fid in fact_ids:
+        if fid not in proven_by_evidence and fid not in known_by_someone:
+            errors.append(f"{fid}: no evidence proves it and no character knows it")
+
     #facts must only involve real characters
     for fact in case.facts:
         for person in fact.people:
@@ -68,3 +82,19 @@ def validate_case(case: CaseBible) -> list[str]:
             errors.append("no evidence in the chain proves a fact involving the culprit")
 
     return errors
+
+def confirm_case():
+
+    with open("cases/case01.json",'r',encoding="utf-8") as casefile:
+        case = casefile.read()
+
+    this_case = CaseBible.model_validate_json(case)
+
+    errors = validate_case(this_case)
+    
+    if errors:
+        print("Errors in the case: ",errors)
+    else: print("Case successfully validated")
+
+if __name__ == "__main__":
+    confirm_case()
