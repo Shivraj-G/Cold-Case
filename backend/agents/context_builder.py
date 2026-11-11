@@ -71,4 +71,3 @@ def main():
 
     print(ans)
 
-main()

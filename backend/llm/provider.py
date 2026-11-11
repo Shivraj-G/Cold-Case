@@ -15,7 +15,7 @@ class LLMProvider(ABC):
         ...
 
 class OllamaProvider(LLMProvider):
-    def __init__(self, model: str, base_url: str = "http://localhost:11434", timeout: int = 120):
+    def __init__(self, model: str = "qwen2.5:3b-instruct", base_url: str = "http://localhost:11434", timeout: int = 120):
         self.model = model
         self.base_url = base_url.rstrip("/")
         self.timeout = timeout

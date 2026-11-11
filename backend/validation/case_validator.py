@@ -85,9 +85,10 @@ def validate_case(case: CaseBible) -> list[str]:
 
     return errors
 
-def confirm_case():
+def confirm_case(casename):
 
-    with open("cases/case01.json",'r',encoding="utf-8") as casefile:
+    path = "cases/"+casename+".json"
+    with open(path,'r',encoding="utf-8") as casefile:
         case = casefile.read()
 
     this_case = CaseBible.model_validate_json(case)
