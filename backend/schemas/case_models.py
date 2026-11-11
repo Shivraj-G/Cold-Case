@@ -18,6 +18,7 @@ class FactKnowledge(BaseModel):
     fact_id: str
     status:Knowledge
     cover_story: str | None = None
+    asked_about: str | None = None
 
 class Character(BaseModel):
     id:str
@@ -48,3 +49,4 @@ class CaseBible(BaseModel):
     characters : list[Character]
     evidence : list[EvidenceItem]
     solution : Solution
+    public_info: list[str] = []

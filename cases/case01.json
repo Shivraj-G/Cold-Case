@@ -1,6 +1,12 @@
 {
   "id": "case01",
   "title": "The Blackout at Cedar Court",
+  "public_info": [
+    "Ramesh Naik, 29, an accounts analyst, was found dead in his own flat, 3B, on Sunday morning by his maid.",
+    "He was strangled with a length of cord.",
+    "The building lost power for about fourteen minutes on Saturday night, starting around 10:10 PM.",
+    "Police are questioning residents, the night guard and Ramesh's colleagues."
+  ],
   "facts": [
     {
       "id": "F01",
@@ -559,71 +565,86 @@
         {
           "fact_id": "F16",
           "status": "lies",
-          "cover_story": "I was at home all night. I never went near Cedar Court. My phone was on the charger."
+          "cover_story": "I was at home all night, and my phone was on the charger.",
+          "asked_about": "when you left home, or what your phone was doing that evening"
         },
         {
           "fact_id": "F20",
           "status": "lies",
-          "cover_story": "I was at home all night. I never went near Cedar Court."
+          "cover_story": "I was at home all night. I did not go near Cedar Court that night.",
+          "asked_about": "where you were that night, or whether you went to or near Cedar Court that night"
         },
         {
           "fact_id": "F30",
           "status": "lies",
-          "cover_story": "I was at home all night. I never went near Cedar Court."
+          "cover_story": "I was at home all night. I did not go near Cedar Court that night.",
+          "asked_about": "where you were that night, or whether you went to or near Cedar Court that night"
         },
         {
           "fact_id": "F31",
           "status": "lies",
-          "cover_story": "I was at home all night. I never went near Cedar Court."
+          "cover_story": "I was at home all night. I did not go near Cedar Court that night.",
+          "asked_about": "where you were that night, or whether you went to or near Cedar Court that night"
         },
         {
           "fact_id": "F32",
           "status": "lies",
-          "cover_story": "That log must be wrong. I was not there, and phones show odd connections all the time."
+          "cover_story": "That must be a mistake. I was not there, and phones show odd connections all the time.",
+          "asked_about": "any record that places your phone at Ramesh's flat"
         },
         {
           "fact_id": "F34",
           "status": "lies",
-          "cover_story": "I was at home all night. I never went near Cedar Court."
+          "cover_story": "I was at home all night. I did not go near Cedar Court that night.",
+          "asked_about": "where you were that night, or whether you went to or near Cedar Court that night"
         },
         {
           "fact_id": "F35",
           "status": "lies",
-          "cover_story": "I was at home all night. I never went near Cedar Court."
+          "cover_story": "I was at home all night. I did not go near Cedar Court that night.",
+          "asked_about": "where you were that night, or whether you went to or near Cedar Court that night"
         },
         {
           "fact_id": "F36",
           "status": "lies",
-          "cover_story": "I was at home all night. I never went near Cedar Court."
+          "cover_story": "I was at home all night. I did not go near Cedar Court that night.",
+          "asked_about": "where you were that night, or whether you went to or near Cedar Court that night"
         },
         {
           "fact_id": "F37",
           "status": "lies",
-          "cover_story": "I was at home all night. I never went near Cedar Court. Anyone in dispatch can cut cord from that roll."
+          "cover_story": "I was at home all night. Anyone in dispatch can cut cord from that roll.",
+          "asked_about": "the cord or rope used on Ramesh, or who could have got hold of it"
         },
         {
           "fact_id": "F38",
           "status": "lies",
-          "cover_story": "I was at home all night. I never went near Cedar Court."
+          "cover_story": "I was at home all night. I did not go near Cedar Court that night.",
+          "asked_about": "where you were that night, or whether you went to or near Cedar Court that night"
         },
         {
           "fact_id": "F40",
           "status": "lies",
-          "cover_story": "I was at home all night. I never went near Cedar Court."
+          "cover_story": "I was at home all night. I did not go near Cedar Court that night.",
+          "asked_about": "where you were that night, or whether you went to or near Cedar Court that night"
         },
         {
           "fact_id": "F42",
           "status": "lies",
-          "cover_story": "I called around half past ten because Ramesh had not replied to my message. He did not pick up, so I assumed he was asleep."
+          "cover_story": "I called around half past ten because Ramesh had not replied to my message. He did not pick up, so I assumed he was asleep.",
+          "asked_about": "your call to Ramesh that night, or why you called"
         },
         {
           "fact_id": "F43",
-          "status": "knows"
+          "status": "lies",
+          "cover_story":"I was home all night, so my phone was connected to the Wi-Fi the whole time.",
+          "asked_about":"when you got home, or when your phone connected to your home Wi-Fi"
         },
         {
           "fact_id": "F46",
           "status": "lies",
-          "cover_story": "I signed out the roll for a weekend shipment and left it in my car. Anyone at dispatch could have cut a length from it earlier."
+          "cover_story": "I signed out the roll for a weekend shipment and left it in my car. Anyone at dispatch could have cut a length from it earlier.",
+          "asked_about": "the roll of cord, or where it was found"
         }
       ]
     },
@@ -641,7 +662,8 @@
         {
           "fact_id": "F04",
           "status": "lies",
-          "cover_story": "I never received any warning about the battery. As far as I know it was inspected last year."
+          "cover_story": "I never received any warning about the battery. As far as I know it was inspected last year.",
+          "asked_about": "any warning about the CCTV backup battery, or the state of the cameras"
         },
         {
           "fact_id": "F05",
@@ -687,7 +709,8 @@
         {
           "fact_id": "F26",
           "status": "lies",
-          "cover_story": "I fell asleep at my desk and slept through the whole outage."
+          "cover_story": "I fell asleep at my desk and slept through the whole outage.",
+          "asked_about": "whether you were at your desk during the outage"
         },
         {
           "fact_id": "F33",
@@ -696,7 +719,8 @@
         {
           "fact_id": "F44",
           "status": "lies",
-          "cover_story": "I woke up when the lights came back on."
+          "cover_story": "I woke up when the lights came back on.",
+          "asked_about": "when you noticed the lights come back on"
         }
       ]
     },

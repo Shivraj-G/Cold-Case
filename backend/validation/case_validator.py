@@ -47,6 +47,8 @@ def validate_case(case: CaseBible) -> list[str]:
                 errors.append(f"{ch.id} has knowledge of unknown fact {k.fact_id}")
             if k.status.value == "lies" and not k.cover_story:
                 errors.append(f"{ch.id} lies about {k.fact_id} but has no cover_story")
+            if k.status.value == "lies" and not k.asked_about:
+                errors.append(f"{ch.id} lies about {k.fact_id} but has no asked_about")
 
     #evidence must prove something real
     for ev in case.evidence:
@@ -93,8 +95,8 @@ def confirm_case():
     errors = validate_case(this_case)
     
     if errors:
-        print("Errors in the case: ",errors)
-    else: print("Case successfully validated")
+        return ("Errors in the case: ",errors)
+    else: return this_case
 
 if __name__ == "__main__":
     confirm_case()

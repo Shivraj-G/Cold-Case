@@ -16,7 +16,10 @@ def make_case() -> CaseBible:
         characters=[
             Character(
                 id="mara", name="Mara", persona="Proud ferry owner",
-                knowledge=[FactKnowledge(fact_id="F01", status="lies", cover_story="I was home all night.")],
+                knowledge=[FactKnowledge(
+                            fact_id="F01", status="lies",
+                            cover_story="I was home all night.",
+                            asked_about="where you were that night",)],
             ),
             Character(id="theo", name="Theo", persona="Nervous cook",
                       knowledge=[FactKnowledge(fact_id="F02", status="knows")]),
@@ -113,3 +116,8 @@ def test_unreachable_fact():
     case.facts.append(Fact(id="F03", text="Nobody can reveal this."))
     case.timeline.append("F03")
     assert has_error(validate_case(case), "F03: no evidence proves it")
+
+def test_lie_without_asked_about():
+    case = make_case()
+    case.characters[0].knowledge[0].asked_about = None
+    assert has_error(validate_case(case), "no asked_about")
