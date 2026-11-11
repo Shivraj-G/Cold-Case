@@ -25,7 +25,10 @@ class OllamaProvider(LLMProvider):
             "model": self.model,
             "messages": [{"role": "system", "content": system}, *messages],
             "stream": False,
-        }
+            "options": {
+                    "temperature": 0.3,
+                    "num_predict": 120}
+                }
         response = requests.post(
             f"{self.base_url}/api/chat", json=payload, timeout=self.timeout
         )

@@ -3,11 +3,29 @@ from backend.llm.provider import OllamaProvider
 from backend.agents.context_builder import build_context
 llm = OllamaProvider()
 
-def Interrogate(case,suspect_id):
-    casefile = confirm_case(case)
-    context = build_context(casefile,suspect_id)
-    messages = [{"role":"user","content":"where were you on saturday night?"}]
-    reply = llm.chat(context,messages)
-    print(reply)
+def interrogate(casefile,suspect_id,messages):
 
-Interrogate("case01","pintu")
+    context = build_context(casefile,suspect_id)
+    try:
+        reply = llm.chat(context,messages)
+        return reply
+    except Exception as er:
+        return f"Error: {er}" 
+
+
+def main():
+    casefile = confirm_case("case01")
+    messages = {"mina":[],"pintu":[],"vishwas":[],"santosh":[]}
+    suspect = input("suspect: ")
+
+    while True:
+        user = input("ask: ")
+        if user == "quit":
+            break
+        else:
+            messages[suspect].append({"role":"user","content":user})
+            reply = interrogate(casefile,suspect,messages[suspect])
+            messages[suspect].append({"role":"assistant","content":reply})
+            print(reply)
+
+main()
