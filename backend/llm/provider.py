@@ -29,11 +29,16 @@ class OllamaProvider(LLMProvider):
                     "temperature": 0.3,
                     "num_predict": 120}
                 }
-        response = requests.post(
-            f"{self.base_url}/api/chat", json=payload, timeout=self.timeout
-        )
-        response.raise_for_status()
-        return response.json()["message"]["content"]
+        try:
+            response = requests.post(
+                f"{self.base_url}/api/chat", json=payload, timeout=self.timeout
+            )
+            response.raise_for_status()
+            return response.json()["message"]["content"]
+        except requests.ConnectionError as e:
+            return f"Connection Error: {e}"
+        except requests.HTTPError as e:
+            return f"HTTP Error: {e}"
 
     
 
