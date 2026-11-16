@@ -15,6 +15,14 @@
       "place": "Company office",
       "people": [
         "pintu"
+      ],
+      "keywords": [
+        "fraud",
+        "fraudulent",
+        "vendor account",
+        "diverting",
+        "diverted",
+        "fake invoices"
       ]
     },
     {
@@ -24,6 +32,9 @@
       "place": "Company office",
       "people": [
         "ramesh"
+      ],
+      "keywords": [
+        "questionable"
       ]
     },
     {
@@ -34,6 +45,11 @@
       "people": [
         "ramesh",
         "pintu"
+      ],
+      "keywords": [
+        "irregular",
+        "irregularities",
+        "discrepancies"
       ]
     },
     {
@@ -43,6 +59,11 @@
       "place": "Cedar Court",
       "people": [
         "vishwas"
+      ],
+      "keywords": [
+        "backup battery",
+        "battery warning",
+        "maintenance contractor"
       ]
     },
     {
@@ -50,7 +71,10 @@
       "text": "The latch on the building's side entrance is broken, so the door does not lock.",
       "time": "Weeks before",
       "place": "Cedar Court side entrance",
-      "people": []
+      "people": [],
+      "keywords": [
+        "latch"
+      ]
     },
     {
       "id": "F06",
@@ -60,6 +84,10 @@
       "people": [
         "pintu",
         "ramesh"
+      ],
+      "keywords": [
+        "wi-fi password",
+        "wifi password"
       ]
     },
     {
@@ -69,6 +97,10 @@
       "place": "Flat 3B",
       "people": [
         "ramesh"
+      ],
+      "keywords": [
+        "router",
+        "battery backup"
       ]
     },
     {
@@ -79,6 +111,10 @@
       "people": [
         "ramesh",
         "vishwas"
+      ],
+      "keywords": [
+        "maintenance fund",
+        "fund accounts"
       ]
     },
     {
@@ -88,6 +124,11 @@
       "place": "Company dispatch store",
       "people": [
         "pintu"
+      ],
+      "keywords": [
+        "tracer",
+        "dispatch store",
+        "stock register"
       ]
     },
     {
@@ -98,7 +139,8 @@
       "people": [
         "ramesh",
         "mina"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F11",
@@ -108,6 +150,11 @@
       "people": [
         "ramesh",
         "mina"
+      ],
+      "keywords": [
+        "move away",
+        "relocate",
+        "relocation"
       ]
     },
     {
@@ -118,7 +165,8 @@
       "people": [
         "ramesh",
         "mina"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F13",
@@ -127,7 +175,8 @@
       "place": "Corridor, floor 2",
       "people": [
         "mina"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F14",
@@ -137,6 +186,9 @@
       "people": [
         "mina",
         "ramesh"
+      ],
+      "keywords": [
+        "want to see you again"
       ]
     },
     {
@@ -146,7 +198,8 @@
       "place": "Flat 3B",
       "people": [
         "ramesh"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F16",
@@ -155,7 +208,8 @@
       "place": "Pintu's home",
       "people": [
         "pintu"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F17",
@@ -164,7 +218,8 @@
       "place": "Flat 3B",
       "people": [
         "ramesh"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F18",
@@ -174,7 +229,8 @@
       "people": [
         "pintu",
         "ramesh"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F19",
@@ -184,6 +240,11 @@
       "people": [
         "ramesh",
         "pintu"
+      ],
+      "keywords": [
+        "autosave",
+        "autosaved",
+        "unfinished email"
       ]
     },
     {
@@ -193,6 +254,9 @@
       "place": "Lane behind Cedar Court",
       "people": [
         "pintu"
+      ],
+      "keywords": [
+        "lane behind"
       ]
     },
     {
@@ -203,7 +267,8 @@
       "people": [
         "ramesh",
         "mina"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F22",
@@ -212,7 +277,8 @@
       "place": "Vishwas's flat",
       "people": [
         "vishwas"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F23",
@@ -221,7 +287,8 @@
       "place": "Cedar Court lobby",
       "people": [
         "deepak"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F24",
@@ -231,7 +298,8 @@
       "people": [
         "mina",
         "joanna"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F25",
@@ -240,7 +308,8 @@
       "place": "Flat 1C",
       "people": [
         "deepak"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F26",
@@ -249,6 +318,9 @@
       "place": "Cedar Court lobby",
       "people": [
         "santosh"
+      ],
+      "keywords": [
+        "tea stall"
       ]
     },
     {
@@ -258,21 +330,26 @@
       "place": "Basement service exit",
       "people": [
         "deepak"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F28",
       "text": "An electricity outage hits the building.",
       "time": "22:10",
       "place": "Cedar Court",
-      "people": []
+      "people": [],
+      "keywords": []
     },
     {
       "id": "F29",
       "text": "The security cameras stop recording because their backup battery is dead.",
       "time": "22:10",
       "place": "Cedar Court",
-      "people": []
+      "people": [],
+      "keywords": [
+        "stopped recording"
+      ]
     },
     {
       "id": "F30",
@@ -281,6 +358,9 @@
       "place": "Side entrance",
       "people": [
         "pintu"
+      ],
+      "keywords": [
+        "side entrance"
       ]
     },
     {
@@ -291,6 +371,10 @@
       "people": [
         "pintu",
         "ramesh"
+      ],
+      "keywords": [
+        "service staircase",
+        "rear staircase"
       ]
     },
     {
@@ -300,7 +384,8 @@
       "place": "Flat 3B",
       "people": [
         "pintu"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F33",
@@ -309,6 +394,11 @@
       "place": "Tea stall",
       "people": [
         "santosh"
+      ],
+      "keywords": [
+        "tea stall",
+        "upi",
+        "cigarettes"
       ]
     },
     {
@@ -319,7 +409,8 @@
       "people": [
         "ramesh",
         "pintu"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F35",
@@ -329,7 +420,8 @@
       "people": [
         "ramesh",
         "pintu"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F36",
@@ -339,6 +431,9 @@
       "people": [
         "ramesh",
         "pintu"
+      ],
+      "keywords": [
+        "struggle"
       ]
     },
     {
@@ -349,6 +444,11 @@
       "people": [
         "ramesh",
         "pintu"
+      ],
+      "keywords": [
+        "strangle",
+        "strangled",
+        "strangling"
       ]
     },
     {
@@ -358,6 +458,9 @@
       "place": "Flat 3B",
       "people": [
         "pintu"
+      ],
+      "keywords": [
+        "drawers"
       ]
     },
     {
@@ -365,7 +468,8 @@
       "text": "Electricity returns to the building.",
       "time": "22:24",
       "place": "Cedar Court",
-      "people": []
+      "people": [],
+      "keywords": []
     },
     {
       "id": "F40",
@@ -374,6 +478,9 @@
       "place": "Rear service staircase",
       "people": [
         "pintu"
+      ],
+      "keywords": [
+        "service staircase"
       ]
     },
     {
@@ -383,7 +490,8 @@
       "place": "Flat 3B",
       "people": [
         "pintu"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F42",
@@ -393,7 +501,8 @@
       "people": [
         "pintu",
         "ramesh"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F43",
@@ -402,7 +511,8 @@
       "place": "Pintu's home",
       "people": [
         "pintu"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F44",
@@ -411,7 +521,8 @@
       "place": "Cedar Court lobby",
       "people": [
         "santosh"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F45",
@@ -421,7 +532,8 @@
       "people": [
         "sunita",
         "ramesh"
-      ]
+      ],
+      "keywords": []
     },
     {
       "id": "F46",
@@ -430,6 +542,9 @@
       "place": "Pintu's car",
       "people": [
         "pintu"
+      ],
+      "keywords": [
+        "boot"
       ]
     }
   ],
@@ -637,8 +752,8 @@
         {
           "fact_id": "F43",
           "status": "lies",
-          "cover_story":"I was home all night, so my phone was connected to the Wi-Fi the whole time.",
-          "asked_about":"when you got home, or when your phone connected to your home Wi-Fi"
+          "cover_story": "I was home all night, so my phone was on the home Wi-Fi the whole time.",
+          "asked_about": "when you got home, or when your phone connected to your home Wi-Fi"
         },
         {
           "fact_id": "F46",

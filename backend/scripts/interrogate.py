@@ -1,8 +1,9 @@
 from backend.validation.case_validator import confirm_case
-from backend.llm.provider import OllamaProvider
+from backend.llm.provider import OllamaProvider, FakeProvider
 from backend.agents.responds import respond
 from backend.agents.context_builder import build_context
 llm = OllamaProvider()
+fake = FakeProvider(["I read the prompt carefully.", "I was at home all night."])
 
 def interrogate(context,messages):
     FORBIDDEN = ["instructions", "prompt", "AI", "language model"]

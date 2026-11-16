@@ -40,5 +40,18 @@ class OllamaProvider(LLMProvider):
         except requests.HTTPError as e:
             return f"HTTP Error: {e}"
 
+class FakeProvider(LLMProvider):
+    def __init__(self,Fakeresplies=list[str]):
+        self.replies = list(Fakeresplies)
+        self.calls = 0
+
+    def chat(self, system: str, messages: list[dict]) -> str:
+        if self.calls >= len(self.replies):
+            raise RuntimeError(
+                f"FakeProvider ran out of replies after {self.calls} calls"
+            )
+        reply = self.replies[self.calls]
+        self.calls += 1
+        return reply
     
 
