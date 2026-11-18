@@ -119,5 +119,5 @@ The fields that matter most:
 
 - Tune prompts against the real model and add a leak-test suite
 - Solvability simulation for new cases
-- Small web UI with pixel art
+- Small web UI 
 - More cases
