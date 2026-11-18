@@ -882,7 +882,8 @@
         "F37",
         "F36"
       ],
-      "scene": "police_records"
+      "scene": "police_records",
+      "exposes": {}
     },
     {
       "id": "E02",
@@ -893,7 +894,8 @@
         "F38",
         "F45"
       ],
-      "scene": "flat_3b"
+      "scene": "flat_3b",
+      "exposes": {}
     },
     {
       "id": "E03",
@@ -907,7 +909,14 @@
         "F05",
         "F08"
       ],
-      "scene": "lobby"
+      "scene": "lobby",
+      "exposes": {
+        "vishwas": [
+          "F04",
+          "F05",
+          "F08"
+        ]
+      }
     },
     {
       "id": "E04",
@@ -918,7 +927,8 @@
         "F25",
         "F27"
       ],
-      "scene": "lobby"
+      "scene": "lobby",
+      "exposes": {}
     },
     {
       "id": "E05",
@@ -931,7 +941,13 @@
         "F13",
         "F24"
       ],
-      "scene": "police_records"
+      "scene": "police_records",
+      "exposes": {
+        "mina": [
+          "F11",
+          "F14"
+        ]
+      }
     },
     {
       "id": "E06",
@@ -943,7 +959,12 @@
         "F32",
         "F41"
       ],
-      "scene": "flat_3b"
+      "scene": "flat_3b",
+      "exposes": {
+        "pintu": [
+          "F32"
+        ]
+      }
     },
     {
       "id": "E07",
@@ -954,7 +975,13 @@
         "F37",
         "F46"
       ],
-      "scene": "police_records"
+      "scene": "police_records",
+      "exposes": {
+        "pintu": [
+          "F37",
+          "F46"
+        ]
+      }
     },
     {
       "id": "E08",
@@ -967,7 +994,12 @@
         "F17",
         "F19"
       ],
-      "scene": "flat_3b"
+      "scene": "flat_3b",
+      "exposes": {
+        "pintu": [
+          "F01"
+        ]
+      }
     },
     {
       "id": "E09",
@@ -979,7 +1011,13 @@
         "F42",
         "F43"
       ],
-      "scene": "police_records"
+      "scene": "police_records",
+      "exposes": {
+        "pintu": [
+          "F16",
+          "F43"
+        ]
+      }
     },
     {
       "id": "E10",
@@ -991,7 +1029,14 @@
         "F33",
         "F44"
       ],
-      "scene": "lobby"
+      "scene": "lobby",
+      "exposes": {
+        "santosh": [
+          "F26",
+          "F33",
+          "F44"
+        ]
+      }
     }
   ],
   "solution": {

@@ -13,6 +13,7 @@ class Fact(BaseModel):
     time:str | None = None
     place:str | None = None
     people: list[str] = []
+    keywords: list[str] = []
 
 class FactKnowledge(BaseModel):
     fact_id: str
@@ -34,6 +35,7 @@ class EvidenceItem(BaseModel):
     description:str
     proves:list[str] #fact ids
     scene: str #where is it
+    exposes: dict[str, list[str]] = {}
 
 class Solution(BaseModel):
     culprit_id: str
