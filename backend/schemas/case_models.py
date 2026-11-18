@@ -42,6 +42,8 @@ class Solution(BaseModel):
     motive:str
     method:str
     evidence_chain: list[str] #evidence ids which leads to him
+    motive_keys: list[list[str]] = []
+    method_keys: list[list[str]] = []
 
 class CaseBible(BaseModel):
     id:str

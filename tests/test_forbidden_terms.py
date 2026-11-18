@@ -52,3 +52,23 @@ def test_public_info_keyword_is_removed():
 def test_unknown_suspect_raises():
     with pytest.raises(ValueError):
         forbidden_terms(make_keyword_case(), "nobody")
+
+
+def test_breaking_unlocks_hidden_keywords():
+    assert "ledger" in forbidden_terms(make_keyword_case(), "mara", "defensive")
+    assert "ledger" not in forbidden_terms(make_keyword_case(), "mara", "breaking")
+
+
+def test_breaking_does_not_unlock_facts_they_never_knew():
+    assert "pier" in forbidden_terms(make_keyword_case(), "theo", "breaking")
+
+
+def test_player_may_introduce_a_word_for_something_suspect_never_knew():
+    case = make_keyword_case()
+    assert "pier" in forbidden_terms(case, "theo")
+    assert "pier" not in forbidden_terms(case, "theo", mentioned="What about the pier?")
+
+
+def test_player_mentioning_a_hidden_word_does_not_unlock_it():
+    case = make_keyword_case()
+    assert "ledger" in forbidden_terms(case, "mara", mentioned="Where is the ledger?")

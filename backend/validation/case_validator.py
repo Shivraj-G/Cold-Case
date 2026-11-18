@@ -57,6 +57,19 @@ def validate_case(case: CaseBible) -> list[str]:
         for fid in ev.proves:
             if fid not in facts:
                 errors.append(f"{ev.id} proves unknown fact {fid}")
+        for sid, fids in ev.exposes.items():
+            suspect = next((c for c in case.characters if c.id == sid), None)
+            if suspect is None:
+                errors.append(f"{ev.id} exposes unknown character {sid}")
+                continue
+            secret = {k.fact_id for k in suspect.knowledge if k.status.value in ("lies", "hides")}
+            for fid in fids:
+                if fid not in facts:
+                    errors.append(f"{ev.id} exposes unknown fact {fid}")
+                elif fid not in ev.proves:
+                    errors.append(f"{ev.id} exposes {fid} which it does not prove")
+                elif fid not in secret:
+                    errors.append(f"{sid} does not hide or lie about {fid}, so {ev.id} cannot expose it")
 
     #the solution must be made of real parts
     sol = case.solution
@@ -67,6 +80,8 @@ def validate_case(case: CaseBible) -> list[str]:
     for eid in sol.evidence_chain:
         if eid not in set(evidence_ids):
             errors.append(f"evidence chain references unknown evidence {eid}")
+    if sol.method_keys and sol.motive_keys == None:
+        errors.append("solution has no method and motive keys")
 
     #solvability: a player must be able to reach the culprit
     culprit = next((c for c in case.characters if c.id == sol.culprit_id), None)

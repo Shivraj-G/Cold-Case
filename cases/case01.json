@@ -2,7 +2,7 @@
   "id": "case01",
   "title": "The Blackout at Cedar Court",
   "public_info": [
-    "Ramesh Naik, 29, an accounts analyst, was found dead in his own flat, 3B, on Sunday morning by his maid.",
+    "Ramesh Naik, 29, an accounts analyst, was found dead in his own flat, no.:3B, on Sunday morning by his maid.",
     "He was strangled with a length of cord.",
     "The building lost power for about fourteen minutes on Saturday night, starting around 10:10 PM.",
     "Police are questioning residents, the night guard and Ramesh's colleagues."
@@ -1048,6 +1048,56 @@
       "E07",
       "E08",
       "E09"
+    ],
+    "motive_keys": [
+      [
+        "fraud",
+        "embezzle",
+        "embezzled",
+        "embezzlement",
+        "stealing",
+        "stole",
+        "theft",
+        "diverting",
+        "diverted",
+        "skimming",
+        "payments",
+        "supplier"
+      ],
+      [
+        "report",
+        "reporting",
+        "expose",
+        "exposed",
+        "reveal",
+        "tell",
+        "management",
+        "found out",
+        "discovered",
+        "caught"
+      ]
+    ],
+    "method_keys": [
+      [
+        "strangle",
+        "strangled",
+        "strangled him",
+        "cord",
+        "ligature",
+        "garrote",
+        "garrotte",
+        "choked"
+      ],
+      [
+        "blackout",
+        "power cut",
+        "power outage",
+        "outage",
+        "side entrance",
+        "broken entrance",
+        "broken door",
+        "let in"
+      ]
     ]
   }
 }
